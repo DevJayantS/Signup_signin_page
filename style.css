@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(253, 255, 223);
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  width: 70%;
+  height: 85vh;
+  border: 1px solid rgb(255, 245, 212);
+  border-radius: 5px;
+}
+
+.block1 {
+  width: 60%;
+  padding-top: 40px;
+}
+
+.block2 {
+  width: 40%;
+  background-image: url(./8d6106eb6f57b012bc8c04581b4f62587b0d18f7.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 250px;
+}
+
+h2 {
+  color: #bdbe3e;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: auto;
+  padding: 25px;
+  width: 48%;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  border: 0;
+  background-color: #eeeebc;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+.forgot_a {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.facebook {
+  width: 4.7rem;
+}
+
+.google {
+  height: 3.5rem;
+  margin-right: 7px;
+}
+
+.linkedin {
+  height: 3.5rem;
+}
+
+.logo {
+  margin-left: 6rem;
+}
+
+p {
+  font-size: larger;
+  margin-bottom: 40px;
+}
+
+.sign_in {
+  padding: 20px;
+  width: 33%;
+  border-radius: 7px;
+  border: 0;
+  background-color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: #bdbe3e;
+}
+
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+
+.asking_para {
+  font-size: 2rem;
+  margin-top: 250px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.sign_up {
+  padding: 17px;
+  border-radius: 7px;
+  border: 0;
+  color: black;
+  background-color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+@media only screen and (max-width: 1485px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .asking_para {
+    font-size: 1.7rem;
+  }
+  .container {
+    height: 80vh;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .asking_para {
+    font-size: 1.7rem;
+    margin-top: 100px;
+  }
+  .container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .block1 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .block2 {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    object-fit: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  .sign_up {
+    font-size: 1.3rem;
+  }
+
+  .sign_in {
+    font-size: 1.3rem;
+  }
+}
